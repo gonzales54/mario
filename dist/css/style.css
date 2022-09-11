@@ -13,6 +13,16 @@
 #app #mario {
   width: 160px;
   height: 160px;
+  position: absolute;
+  bottom: 40px;
+  flex-wrap: wrap;
+}
+#app #mario_reverse {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  bottom: 40px;
+  transform: scale(-1, 1);
   flex-wrap: wrap;
 }
 #app #ground {
